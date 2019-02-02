@@ -1,5 +1,13 @@
 package BLL;
 
+/**
+ * This controller manage the webcam to take photo (helped by the IHM IhmSnapshot)
+ * List of methods :
+ *
+ * 1. [public void or boolean] take picture
+ * 2. [public void] switch to Face checking
+ */
+
 import IHM.IhmSnapshot;
 
 import java.awt.event.ActionEvent;
@@ -17,6 +25,14 @@ public class BllSnapshot extends BllGenericController implements ActionListener,
 
     public IhmSnapshot getView() {
         return(IhmSnapshot) view;
+    }
+
+    public void takePicture() {
+
+    }
+
+    public void faceChecking() {
+
     }
 
     @Override

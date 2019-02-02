@@ -5,16 +5,18 @@ import IHM.IhmGenericView;
 /**
  * ihmGenericView
  * Main model for all controller
+ * Need to be import in others controllers to be fully used
+ *
+ * @version 0.1
  * @author ydurand
-- v1.0
  */
 abstract class BllGenericController {
 
-    private IhmGenericView view = null;
+    protected IhmGenericView view = null;
     private BllMainController bllMainController;
 
     // Constructeur du controller générique
-    private BllGenericController (BllMainController bllMainController) {
+    protected BllGenericController (BllMainController bllMainController) {
         this.bllMainController = bllMainController;
     }
 
