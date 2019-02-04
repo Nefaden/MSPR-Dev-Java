@@ -15,18 +15,20 @@ public class BoUser {
     private String s_FirstNameUser;
     private String s_EmailUser;
     private String s_PhoneNumberUser;
+    private String s_PhotoUser;
     //private img img_PersonnalPicture;
 
     //Default constructor
     public BoUser() {
     }
 
-    public BoUser(int intIdUser, String strNameUser, String strFirstNameUser, String strEmailUser, String strPhoneNumberUser) {
+    public BoUser(int intIdUser, String strNameUser, String strFirstNameUser, String strEmailUser, String strPhoneNumberUser, String strPhotoUser) {
         this.i_IdUser = intIdUser;
         this.s_NameUser = strNameUser;
         this.s_FirstNameUser = strFirstNameUser;
         this.s_EmailUser = strEmailUser;
         this.s_PhoneNumberUser = strPhoneNumberUser;
+        this.s_PhotoUser = strPhotoUser;
     }
 
     //Getter
@@ -50,6 +52,10 @@ public class BoUser {
         return s_PhoneNumberUser;
     }
 
+    public String getS_PhotoUser() {
+        return s_PhotoUser;
+    }
+
     //Setter
     public void setI_IdUser(int intIdUser) {
         this.i_IdUser = intIdUser;
@@ -69,6 +75,10 @@ public class BoUser {
 
     public void setS_PhoneNumberUser(String strPhoneNumberUser) {
         this.s_PhoneNumberUser = strPhoneNumberUser;
+    }
+
+    public void setS_PhotoUser(String strPhotoUser) {
+        this.s_PhotoUser = strPhotoUser;
     }
 }
 

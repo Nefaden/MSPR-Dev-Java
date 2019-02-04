@@ -24,6 +24,14 @@ public class BoMaterial {
         this.i_MaxAmount = intMaxAmount;
     }
 
+    public boolean isAvailable() {
+        Boolean response = false;
+        if (i_MaxAmount > 0) {
+            response = true;
+        }
+        return response;
+    }
+
     public int getI_IdMaterial() {
         return i_IdMaterial;
     }
