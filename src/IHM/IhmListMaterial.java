@@ -5,10 +5,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class IhmWindow extends IhmGenericView implements ActionListener {
+public class IhmListMaterial extends IhmGenericView implements ActionListener {
 
-    public IhmWindow(){
-        this.setTitle("IhmWindow Projet Java");
+    public IhmListMaterial(){
+        this.setTitle("IhmListMaterial Projet Java");
         this.setSize(800,600);
         this.setResizable(false);
 
@@ -96,7 +96,7 @@ public class IhmWindow extends IhmGenericView implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        IhmWindowId fen=new IhmWindowId();
+        IhmSnapshot fen=new IhmSnapshot();
         fen.setVisible(true);
         this.setVisible(false);
     }

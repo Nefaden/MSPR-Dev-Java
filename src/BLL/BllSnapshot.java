@@ -8,6 +8,8 @@ package BLL;
  * 2. [public void] switch to Face checking
  */
 
+import IHM.IhmSnapshot;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
@@ -26,10 +28,6 @@ public class BllSnapshot extends BllGenericController implements ActionListener,
     }
 
     public void takePicture() {
-
-    }
-
-    public void faceChecking() {
 
     }
 

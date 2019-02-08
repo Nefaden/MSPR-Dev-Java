@@ -1,6 +1,6 @@
 package BLL;
 
-import BO.BoMaterial;
+import IHM.IhmListMaterial;
 
 /**
  * Controller about borrowing materila by agent
@@ -15,9 +15,17 @@ import BO.BoMaterial;
  * @author ydurand
  */
 
-public class BllBorrowingMaterial {
+public class BllBorrowingMaterial extends BllGenericController{
+
+    private static final BllMainController bllMainController = new BllMainController();
 
     public BllBorrowingMaterial() {
+        super(bllMainController);
+        this.view = new IhmListMaterial();
+    }
+
+    public IhmListMaterial getView() {
+        return(IhmListMaterial) view;
     }
 
     public void borrowingMaterial() {

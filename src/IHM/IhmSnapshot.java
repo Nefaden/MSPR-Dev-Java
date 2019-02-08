@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class IhmWindowId extends IhmGenericView implements ActionListener {
+public class IhmSnapshot extends IhmGenericView implements ActionListener {
 
-    public IhmWindowId()  {
+    public IhmSnapshot()  {
 
-        this.setTitle("IhmWindow Projet Java");
+        this.setTitle("IhmListMaterial Projet Java");
         this.setSize(800,600);
         this.setResizable(false);
 
@@ -37,7 +37,7 @@ public class IhmWindowId extends IhmGenericView implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        IhmWindow fen=new IhmWindow();
+        IhmListMaterial fen=new IhmListMaterial();
         fen.setVisible(true);
         this.setVisible(false);
     }

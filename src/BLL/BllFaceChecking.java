@@ -1,5 +1,7 @@
 package BLL;
 
+import IHM.IhmListMaterial;
+
 /**
  * Controller about face checking of agents
  * This controller manage agent's personnal pictures
@@ -15,9 +17,18 @@ package BLL;
  * @author ydurand
  */
 
-public class BllFaceChecking {
+public class BllFaceChecking extends BllGenericController{
 
-    public BllFaceChecking() {
+    public BllFaceChecking(BllMainController bllMainController) {
+        super(bllMainController);
+        this.view = new IhmListMaterial();
+    }
+
+    public IhmListMaterial getView() {
+        return(IhmListMaterial) view;
+    }
+
+    public void faceChecking() {
 
     }
 }

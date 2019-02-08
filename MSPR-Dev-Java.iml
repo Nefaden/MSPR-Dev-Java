@@ -7,5 +7,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/Program Files/Java/Library/javacv-master/platform/src/test/java" />
+          <root url="file://C:/Program Files/Java/Library/javacv-master/samples" />
+          <root url="file://C:/Program Files/Java/Library/javacv-master/src/main/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
