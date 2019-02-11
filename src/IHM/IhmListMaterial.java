@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class IhmListMaterial extends IhmGenericView implements ActionListener {
 
     public IhmListMaterial(){
-        this.setTitle("IhmListMaterial Projet Java");
+        this.setTitle("Projet MSPR Java");
         this.setSize(800,600);
         this.setResizable(false);
 
@@ -16,8 +16,11 @@ public class IhmListMaterial extends IhmGenericView implements ActionListener {
         pan.setLayout(null);
 
         /* Les boutons */
-        JButton id=new JButton("Identification");
-        id.addActionListener(this);
+        JButton jButtonBack = new JButton("Retour");
+        jButtonBack.addActionListener(this);
+
+        JButton jButtonValidate = new JButton("Valider");
+        jButtonValidate.addActionListener(this);
 
         /* Les CheckBox */
         Checkbox mousqueton=new Checkbox();
@@ -41,7 +44,7 @@ public class IhmListMaterial extends IhmGenericView implements ActionListener {
         JLabel image=new JLabel(new ImageIcon("C:/Users/Perso/IdeaProjects/Projet_java/photodeprofil.jpg"));
 
         /* On ajoute le bouton */
-        pan.add(id);
+        pan.add(jButtonBack);
 
         /* On ajoute les checkbox */
         pan.add(mousqueton);
@@ -87,7 +90,9 @@ public class IhmListMaterial extends IhmGenericView implements ActionListener {
         gilet.setBounds(400,460,20,20);
         gil.setBounds(288,417,200,100);
 
-        id.setBounds(20,10,150,35);
+        jButtonBack.setBounds(20,10,150,35);
+
+        jButtonValidate.setBounds(700,0,150,35);
 
         image.setBounds(550,10,220,220);
 

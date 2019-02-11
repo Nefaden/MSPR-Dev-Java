@@ -1,44 +1,68 @@
 package IHM;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class IhmSnapshot extends IhmGenericView implements ActionListener {
+public class IhmSnapshot extends IhmGenericView {
 
-    public IhmSnapshot()  {
-
-        this.setTitle("IhmListMaterial Projet Java");
-        this.setSize(800,600);
+    public IhmSnapshot() {
+        initComponents();
+        this.setTitle("Projet MSPR Java");
+        this.setSize(800, 600);
         this.setResizable(false);
 
-        
-        JPanel pan=new JPanel();
-        pan.setLayout(null);
+
+        JPanel jPanel = new JPanel();
+        jPanel.setLayout(null);
+
+        JPanel jPanelVisionCheck = new JPanel();
+        jPanelVisionCheck.setLayout(null);
 
         /* Les boutons */
-        JButton id=new JButton("S'Identifier");
-        id.addActionListener(this);
+        JButton jButtonAuth = new JButton("S'Identifier");
 
         /* Image de profil */
-        JLabel image=new JLabel(new ImageIcon("C:/Users/Perso/IdeaProjects/Projet_java/photodeprofil.jpg"));
+        JLabel image=new JLabel(new ImageIcon("../MSPR-Dev-Java/photodeprofil.jpg"));
 
         /* On ajoute le bouton */
-        pan.add(id);
+        jPanel.add(jButtonAuth);
         /* On ajoute l'image */
-        pan.add(image);
+        jPanel.add(image);
 
-        id.setBounds(600,50,150,35);
+        jButtonAuth.setBounds(600,50,150,35);
 
         image.setBounds(0,0,550,550);
 
-        this.add(pan);
+        jPanelVisionCheck.setBounds(10, 50, 500, 400);
+
+        this.add(jPanel);
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        IhmListMaterial fen=new IhmListMaterial();
-        fen.setVisible(true);
-        this.setVisible(false);
+    private void initComponents() {
+        jButtonAuth = new javax.swing.JButton();
+        jPanelVisionCheck = new javax.swing.JPanel();
+        jPanel = new javax.swing.JPanel();
+        image = new javax.swing.JLabel();
     }
+
+    public JPanel getjPanelVisionCheck() {
+        return jPanelVisionCheck;
+    }
+
+    public JPanel getjPanel() {
+        return jPanel;
+    }
+
+    public JButton getjButtonAuth() {
+        return jButtonAuth;
+    }
+
+    public JLabel getImage() {
+        return image;
+    }
+
+    private javax.swing.JPanel jPanelVisionCheck;
+    private javax.swing.JPanel jPanel;
+    private javax.swing.JButton jButtonAuth;
+    private javax.swing.JLabel image;
+
 }

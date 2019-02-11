@@ -18,7 +18,6 @@ import java.sql.SQLException;
 public class BllMainController {
 
     private BllSnapshot bllSnapshot = null;
-    private BllFaceChecking bllFaceChecking = null;
     private BllBorrowingMaterial bllBorrowingMaterial = null;
 
     /**

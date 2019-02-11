@@ -18,5 +18,20 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.apache.httpcomponents:httpclient:4.5.6" level="project" />
+    <orderEntry type="library" name="org.apache.httpcomponents:httpcore:4.4.10" level="project" />
+    <orderEntry type="library" name="org.json:json:20170516" level="project" />
+    <orderEntry type="library" name="commons-logging:commons-logging:1.1.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files/Java/Library/sarxos/webcam-capture-0.3.12.jar!/" />
+          <root url="jar://C:/Program Files/Java/Library/sarxos/libs/bridj-0.7.0.jar!/" />
+          <root url="jar://C:/Program Files/Java/Library/sarxos/libs/slf4j-api-1.7.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
