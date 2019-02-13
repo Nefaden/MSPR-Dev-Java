@@ -9,7 +9,6 @@ import IHM.IhmListMaterial;
  *
  * Methods list :
  * 1. [public void] borrowing material
- * 2. [public void] restitute material
  *
  * @version 0.1
  * @author ydurand
@@ -29,9 +28,5 @@ public class BllBorrowingMaterial extends BllGenericController{
     }
 
     public void borrowingMaterial() {
-    }
-
-    public void restitureMaterial() {
-
     }
 }

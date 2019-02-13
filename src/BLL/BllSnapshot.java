@@ -4,7 +4,6 @@ package BLL;
 // http://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/
 // https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/
 
-import IHM.IhmListMaterial;
 import IHM.IhmSnapshot;
 import com.github.sarxos.webcam.Webcam;
 import org.apache.http.HttpEntity;
@@ -52,7 +51,6 @@ public class BllSnapshot extends BllGenericController implements ActionListener,
 
     public void takePicture() throws IOException {
         Webcam webcam = Webcam.getDefault();
-        webcam.open();
         ImageIO.write(webcam.getImage(), "PNG", new File("hello-world.png"));
     }
 
@@ -143,10 +141,10 @@ public class BllSnapshot extends BllGenericController implements ActionListener,
         if (e.getSource().equals(getView().getjButtonAuth())) {
             try {
                 takePicture();
-                IhmListMaterial fen=new IhmListMaterial();
-                fen.setVisible(true);
-                getView().setVisible(false);
+                this.getMainController().action(EnumAction.DISPLAY_LIST_MATERIAL);
             } catch (IOException e1) {
+                e1.printStackTrace();
+            } catch (SQLException e1) {
                 e1.printStackTrace();
             }
         }

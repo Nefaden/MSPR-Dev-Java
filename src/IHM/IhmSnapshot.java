@@ -1,5 +1,9 @@
 package IHM;
 
+import com.github.sarxos.webcam.Webcam;
+import com.github.sarxos.webcam.WebcamPanel;
+import com.github.sarxos.webcam.WebcamResolution;
+
 import javax.swing.*;
 
 public class IhmSnapshot extends IhmGenericView {
@@ -7,62 +11,50 @@ public class IhmSnapshot extends IhmGenericView {
     public IhmSnapshot() {
         initComponents();
         this.setTitle("Projet MSPR Java");
-        this.setSize(800, 600);
         this.setResizable(false);
 
+        Webcam webcam = Webcam.getDefault();
+        webcam.setViewSize(WebcamResolution.VGA.getSize());
 
-        JPanel jPanel = new JPanel();
-        jPanel.setLayout(null);
+        WebcamPanel jPanelVisionCheck = new WebcamPanel(webcam);
+        jPanelVisionCheck.setFPSDisplayed(true);
+        jPanelVisionCheck.setDisplayDebugInfo(true);
+        jPanelVisionCheck.setImageSizeDisplayed(true);
+        jPanelVisionCheck.setMirrored(true);
 
-        JPanel jPanelVisionCheck = new JPanel();
-        jPanelVisionCheck.setLayout(null);
-
-        /* Les boutons */
-        JButton jButtonAuth = new JButton("S'Identifier");
-
-        /* Image de profil */
-        JLabel image=new JLabel(new ImageIcon("../MSPR-Dev-Java/photodeprofil.jpg"));
-
-        /* On ajoute le bouton */
-        jPanel.add(jButtonAuth);
-        /* On ajoute l'image */
-        jPanel.add(image);
+        JFrame mainWindow = new JFrame();
+        mainWindow.add(jPanelVisionCheck);
+        mainWindow.add(jButtonAuth);
+        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainWindow.pack();
+        mainWindow.setVisible(true);
+        mainWindow.setSize(800,600);
 
         jButtonAuth.setBounds(600,50,150,35);
 
-        image.setBounds(0,0,550,550);
-
-        jPanelVisionCheck.setBounds(10, 50, 500, 400);
-
-        this.add(jPanel);
+        jPanelVisionCheck.setBounds(0,0,600,400);
     }
 
     private void initComponents() {
         jButtonAuth = new javax.swing.JButton();
         jPanelVisionCheck = new javax.swing.JPanel();
-        jPanel = new javax.swing.JPanel();
-        image = new javax.swing.JLabel();
+        mainWindow = new javax.swing.JFrame();
     }
 
     public JPanel getjPanelVisionCheck() {
         return jPanelVisionCheck;
     }
 
-    public JPanel getjPanel() {
-        return jPanel;
+    public JFrame getMainWindow() {
+        return mainWindow;
     }
 
     public JButton getjButtonAuth() {
         return jButtonAuth;
     }
 
-    public JLabel getImage() {
-        return image;
-    }
-
     private javax.swing.JPanel jPanelVisionCheck;
-    private javax.swing.JPanel jPanel;
+    private javax.swing.JFrame mainWindow;
     private javax.swing.JButton jButtonAuth;
-    private javax.swing.JLabel image;
 
 }

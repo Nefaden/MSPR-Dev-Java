@@ -1,5 +1,7 @@
 package BLL;
 
+import com.github.sarxos.webcam.Webcam;
+
 import java.sql.SQLException;
 
 /**
@@ -29,6 +31,8 @@ public class BllMainController {
         }
         bllSnapshot.getView().setEnabled(true);
         bllSnapshot.getView().setVisible(true);
+        Webcam webcam = Webcam.getDefault();
+        webcam.open();
     }
 
     public void action(EnumAction action) throws SQLException {
@@ -60,7 +64,7 @@ public class BllMainController {
         bllBorrowingMaterial.getView().setEnabled(true);
     }*/
 
-    private void displayMaterials() {
+    void displayMaterials() {
         if (bllBorrowingMaterial == null) {
             bllBorrowingMaterial = new BllBorrowingMaterial();
         }
