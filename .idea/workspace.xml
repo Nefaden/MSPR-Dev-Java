@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02fe8d5-ee0d-4728-8281-7f9bf93533fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App/WebcamPanelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/WebcamViewerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAL/DalMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAL/DalUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBO/TestBoMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBO/TestBoUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDAL/TestDalUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BLL/BllMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/BllMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BLL/BllMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/BllRestituteMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BLL/BllSnapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/BllSnapshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IHM/IhmSnapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IHM/IhmSnapshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSPR-Dev-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MSPR-Dev-Java.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,64 +38,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/BLL/BllSnapshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BLL/BllMainController.java">
+        <entry file="jar://$USER_HOME$/.ideaLibSources/webcam-capture-0.3.12-sources.jar!/com/github/sarxos/webcam/Webcam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="66" column="25" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="278" column="19" selection-start-line="278" selection-start-column="19" selection-end-line="278" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestBO/TestBoUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestBO/TestBoMaterial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAL/DalUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAL/DalMaterial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BLL/BllSnapshot.java">
+        <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IHM/IhmSnapshot.java">
+        <entry file="jar://$PROJECT_DIR$/../Library External/sarxos/webcam-capture-0.3.12.jar!/com/github/sarxos/webcam/Webcam.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IHM/IhmListMaterial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="334">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -104,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IHM/IhmGenericView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="68">
               <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,8 +174,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1734" />
-    <option name="y" value="49" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -167,52 +184,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Dev-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Dev-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Dev-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Dev-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BLL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Dev-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Dev-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IHM" type="462c0819:PsiDirectoryNode" />
+              <item name="DAL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSPR-Dev-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SQL" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDAL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MSPR-Dev-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -228,8 +239,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550050022619" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/Library/sarxos/libs/slf4j-api-1.7.2.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550533625615" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Library External/sarxos/webcam-capture-0.3.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -258,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.WebcamPanelExample">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App.Main" />
       <module name="MSPR-Dev-Java" />
@@ -313,8 +324,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WebcamPanelExample" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WebcamViewerExample" />
         <item itemvalue="Application.Test" />
       </list>
@@ -339,6 +350,7 @@
       <workItem from="1549963710881" duration="966000" />
       <workItem from="1549979325562" duration="2685000" />
       <workItem from="1550046641489" duration="2619000" />
+      <workItem from="1550533384989" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="Adding javadoc in all controller (BLL)">
       <created>1549099047497</created>
@@ -372,12 +384,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36911000" />
+    <option name="totallyTimeSpent" value="37152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +398,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,26 +465,14 @@
     <entry file="file://$PROJECT_DIR$/src/SQL/create_database.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/App/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/BLL/Jdbc.java" />
     <entry file="file://$PROJECT_DIR$/src/BLL/BllFaceChecking.java" />
     <entry file="file://$PROJECT_DIR$/MSPR-Dev-Java.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="1850" column="48" lean-forward="true" selection-start-line="1850" selection-start-column="48" selection-end-line="1850" selection-end-column="48" />
-          <folding>
-            <element signature="e#67234#67235#0" expanded="true" />
-            <element signature="e#67291#67292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java" />
     <entry file="file://$PROJECT_DIR$/src/BO/BoMaterial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -523,13 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17544">
-          <caret line="1114" selection-start-line="1114" selection-end-line="1114" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/java/awt/Container.java" />
     <entry file="file://$PROJECT_DIR$/src/BLL/BllRestituteMaterial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -537,23 +531,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IHM/IhmGenericView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/Library/sarxos/webcam-capture-0.3.12.jar!/com/github/sarxos/webcam/Webcam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="305" selection-start-line="305" selection-end-line="305" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/Library/sarxos/webcam-capture-0.3.12.jar!/com/github/sarxos/webcam/Webcam.class" />
     <entry file="file://$PROJECT_DIR$/src/App/WebcamPanelExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -587,20 +565,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IHM/IhmListMaterial.java">
+    <entry file="file://$PROJECT_DIR$/hello-world.png" />
+    <entry file="file://$PROJECT_DIR$/src/App/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="493">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/BLL/BllMainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="1088">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IHM/IhmSnapshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IHM/IhmListMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -614,30 +610,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IHM/IhmSnapshot.java">
+    <entry file="file://$PROJECT_DIR$/src/IHM/IhmGenericView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BLL/BllMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="66" column="25" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BLL/BllSnapshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Library External/sarxos/webcam-capture-0.3.12.jar!/com/github/sarxos/webcam/Webcam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/webcam-capture-0.3.12-sources.jar!/com/github/sarxos/webcam/Webcam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="278" column="19" selection-start-line="278" selection-start-column="19" selection-end-line="278" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestBO/TestBoUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestBO/TestBoMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/DalUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/DalMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
