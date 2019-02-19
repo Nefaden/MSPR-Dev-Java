@@ -45,8 +45,10 @@ public class DalMaterial {
     }
 
 
-    public static BoMaterial insertMaterial(int idMaterial, String strLabel, int intMaxAmount) throws SQLException {
+    public static BoMaterial insertMaterial(int idMaterial) throws SQLException {
         BoMaterial objMaterial = new BoMaterial(0, null, 0);
+        String strLabel = objMaterial.getS_LabelMaterial();
+        int intMaxAmount = objMaterial.getI_MaxAmount();
         ResultSet rs;
         PreparedStatement pstmt;
         Jdbc jdbc = Jdbc.getInstance();

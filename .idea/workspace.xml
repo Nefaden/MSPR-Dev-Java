@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02fe8d5-ee0d-4728-8281-7f9bf93533fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAL/Jdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BLL/BllMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/BllMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BO/BoMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BO/BoMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BO/BoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BO/BoUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAL/DalMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/DalMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAL/DalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/DalUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQL/create_database.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestBO/TestBoMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestBO/TestBoMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestBO/TestBoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestBO/TestBoUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDAL/TestDalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDAL/TestDalUser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,6 +74,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BLL/BllSnapshot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1794">
+              <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestBO/TestBoMaterial.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -111,6 +110,18 @@
                 <element signature="e#1121#1122#0" expanded="true" />
                 <element signature="e#1173#1174#0" expanded="true" />
                 <element signature="e#1220#1221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,19 +185,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DAL/DalMaterial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#915#927#0" expanded="true" />
@@ -196,18 +198,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SQL/create_database_mspr.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="451">
               <caret line="91" column="7" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -243,7 +236,6 @@
         <option value="$PROJECT_DIR$/src/IHM/IhmListMaterial.java" />
         <option value="$PROJECT_DIR$/src/BLL/BllGenericController.java" />
         <option value="$PROJECT_DIR$/src/BLL/BllMainController.java" />
-        <option value="$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java" />
         <option value="$PROJECT_DIR$/src/App/WebcamViewerExample.java" />
         <option value="$PROJECT_DIR$/src/App/WebcamPanelExample.java" />
         <option value="$PROJECT_DIR$/src/App/Main.java" />
@@ -258,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/SQL/create_database_mspr.sql" />
         <option value="$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java" />
         <option value="$PROJECT_DIR$/src/DAL/DalMaterial.java" />
+        <option value="$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java" />
       </list>
     </option>
   </component>
@@ -357,7 +350,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550549218629" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550553210111" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Library External/sarxos/webcam-capture-0.3.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -482,7 +475,7 @@
       <workItem from="1549963710881" duration="966000" />
       <workItem from="1549979325562" duration="2685000" />
       <workItem from="1550046641489" duration="2619000" />
-      <workItem from="1550533384989" duration="13014000" />
+      <workItem from="1550533384989" duration="15556000" />
     </task>
     <task id="LOCAL-00001" summary="Adding javadoc in all controller (BLL)">
       <created>1549099047497</created>
@@ -519,11 +512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550533671884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Couche DAL + Modif script SQL">
+      <created>1550549262407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550549262407</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49925000" />
+    <option name="totallyTimeSpent" value="52467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,7 +536,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -578,7 +577,8 @@
     <MESSAGE value="Création du controller principal pour faciliter la naviguation.&#10;En cours de réfléxion pour un menu principal pour rediriger vers l'emprunt ou la restitution du matériel." />
     <MESSAGE value="Ajout de la fonctionnalité de la webcam + photo" />
     <MESSAGE value="Ajout des package DAL et des tests BO et DAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des package DAL et des tests BO et DAL" />
+    <MESSAGE value="Couche DAL + Modif script SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Couche DAL + Modif script SQL" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/SQL/create_database.sql">
@@ -690,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IHM/IhmGenericView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -704,13 +697,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BLL/BllSnapshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -755,13 +741,6 @@
             <element signature="e#1797#1798#0" expanded="true" />
             <element signature="e#1856#1857#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestBO/TestBoUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -811,13 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SQL/create_database_mspr.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BO/BoMaterial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -840,6 +812,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestBO/TestBoUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SQL/create_database_mspr.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DAL/DalUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -854,16 +847,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestDAL/TestDalMaterial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="451">
           <caret line="91" column="7" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -873,11 +859,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DAL/DalMaterial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="425">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#915#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/BllSnapshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/BllBorrowingMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

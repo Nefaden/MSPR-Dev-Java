@@ -1,6 +1,10 @@
 package BLL;
 
+import BO.BoMaterial;
+import DAL.DalMaterial;
 import IHM.IhmListMaterial;
+
+import java.sql.SQLException;
 
 /**
  * Controller about borrowing materila by agent
@@ -27,6 +31,8 @@ public class BllBorrowingMaterial extends BllGenericController{
         return(IhmListMaterial) view;
     }
 
-    public void borrowingMaterial() {
+    public void borrowingMaterial(int idMaterial) throws SQLException {
+        BoMaterial objMaterial = DalMaterial.getOneById(idMaterial);
+        int actualAmount = objMaterial.getI_MaxAmount() - 1;
     }
 }
