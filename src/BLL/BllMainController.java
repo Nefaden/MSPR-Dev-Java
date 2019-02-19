@@ -76,7 +76,7 @@ public class BllMainController {
 
     private void disconnect() throws SQLException {
         /*try {
-            Jdbc.getInstance().deconnecter();
+            Jdbc.getInstance().disconnected();
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage(), "CtrlPrincipal - fermeture connexion BD", JOptionPane.ERROR_MESSAGE);
         } finally {*/

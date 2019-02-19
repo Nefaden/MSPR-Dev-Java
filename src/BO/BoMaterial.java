@@ -15,7 +15,7 @@ public class BoMaterial {
     private String s_LabelMaterial;
     private int i_MaxAmount;
 
-    public BoMaterial() {
+    public BoMaterial(int intIdMaterial, String strLabelMaterial, String o) {
     }
 
     public BoMaterial(int intIdMaterial, String strLabelMaterial, int intMaxAmount) {
