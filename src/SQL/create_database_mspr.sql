@@ -23,14 +23,14 @@ USE `MSPR_DB` ;
 -- -----------------------------------------------------
 -- Table `MSPR_DB`.`User`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `MSPR_DB`.`USER` (
-  `ID_USER` INT(4) NOT NULL,
-  `FIRSTNAME` VARCHAR(30) NULL,
+CREATE TABLE IF NOT EXISTS `MSPR_DB`.`AGENT` (
+  `ID_AGENT` INT(4) NOT NULL,
   `LASTNAME` VARCHAR(30) NULL,
+  `FIRSTNAME` VARCHAR(30) NULL,
   `EMAIL` VARCHAR(30) NULL,
   `PHONENUMBER` INT(10) NULL,
   -- `PHOTO` VARCHAR(255) NULL,
-  PRIMARY KEY (`idUser`))
+  PRIMARY KEY (`idAgent`))
 ENGINE = InnoDB;
 
 
@@ -48,13 +48,13 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `MSPR_DB`.`Emprunter`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `MSPR_DB`.`Emprunter` (
-  `ID_USER` INT NULL,
+CREATE TABLE IF NOT EXISTS `MSPR_DB`.`BORROWING` (
+  `ID_AGENT` INT NULL,
   `ID_MATERIAL` VARCHAR(45) NULL,
-  INDEX `ID_USER_idx` (`ID_USER` ASC) VISIBLE,
-  CONSTRAINT `ID_USER`
-    FOREIGN KEY (`ID_USER`)
-    REFERENCES `MSPR_DB`.`USER` (`ID_USER`)
+  INDEX `ID_USER_idx` (`ID_AGENT` ASC),
+  CONSTRAINT `ID_AGENT`
+    FOREIGN KEY (`ID_AGENT`)
+    REFERENCES `MSPR_DB`.`AGENT` (`ID_AGENT`)
     ON DELETE NO ACTION
     ON UPDATE RESTRICT,
   CONSTRAINT `ID_MATERIAL`

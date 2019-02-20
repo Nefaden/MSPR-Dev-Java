@@ -7,7 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class DalMaterial {
 
@@ -17,7 +16,7 @@ public class DalMaterial {
         PreparedStatement pstmt;
         Jdbc jdbc = Jdbc.getInstance();
         // Prepared request
-        String requete = "SELECT * FROM MATERIAL WHERE ID_MATERIAL= ?";
+        String requete = "SELECT * FROM MATERIAL WHERE ID_MATERIAL = ?";
         pstmt = jdbc.getConnexion().prepareStatement(requete);
         pstmt.setInt(1, idMaterial);
         rs = pstmt.executeQuery();
@@ -45,8 +44,8 @@ public class DalMaterial {
     }
 
 
-    public static BoMaterial insertMaterial(int idMaterial) throws SQLException {
-        BoMaterial objMaterial = new BoMaterial(0, null, 0);
+    public static void insertMaterial(BoMaterial objMaterial) throws SQLException {
+        int idMaterial = objMaterial.getI_IdMaterial();
         String strLabel = objMaterial.getS_LabelMaterial();
         int intMaxAmount = objMaterial.getI_MaxAmount();
         ResultSet rs;
@@ -56,29 +55,34 @@ public class DalMaterial {
         String requete = "INSERT INTO MATERIAL (ID_MATERIAL, LABEL, MAX_AMOUNT) VALUES (idMaterial, label, maxAmount)";
         pstmt = jdbc.getConnexion().prepareStatement(requete);
         pstmt.setInt(idMaterial, 1);
+        //noinspection JpaQueryApiInspection
         pstmt.setString(1, strLabel);
         pstmt.setInt(intMaxAmount, 1);
         rs = pstmt.executeQuery();
         if (rs.next()) {
             objMaterial = DalMaterial.MaterialFromResultSet(rs);
         }
-        return objMaterial;
     }
 
-    public static void updateMaterial(int idMaterial, String strLabel, int intMaxAmount) throws SQLException {
-        AtomicReference<BoMaterial> objMaterial = new AtomicReference<>(DalMaterial.getOneById(idMaterial));
+    public static BoMaterial updateMaterial(int idMaterial) throws SQLException {
+        BoMaterial objMaterial = DalMaterial.getOneById(idMaterial);
+        String strLabel = DalMaterial.getOneById(idMaterial).getS_LabelMaterial();
+        int intMaxAmount = DalMaterial.getOneById(idMaterial).getI_MaxAmount();
         ResultSet rs;
         PreparedStatement pstmt;
         Jdbc jdbc = Jdbc.getInstance();
         // Prepared request
-        String requete = "UPDATE MATERIAL (ID_MATERIAL, LABEL, MAX_AMOUNT) VALUES (idMaterial, label, maxAmount)";
+        String requete = "UPDATE MATERIAL SET ID_MATERIAL = idMaterial, LABEL = strLabel, MAX_AMOUNT = intMaxAmount";
         pstmt = jdbc.getConnexion().prepareStatement(requete);
+        //noinspection JpaQueryApiInspection
         pstmt.setString(1, strLabel);
+        //noinspection JpaQueryApiInspection
         pstmt.setInt(1, intMaxAmount);
         rs = pstmt.executeQuery();
         if (rs.next()) {
-            objMaterial.set(DalMaterial.MaterialFromResultSet(rs));
+            objMaterial = DalMaterial.MaterialFromResultSet(rs);
         }
+        return objMaterial;
     }
 
     public static void deleteMaterial(int idMaterial) throws SQLException {

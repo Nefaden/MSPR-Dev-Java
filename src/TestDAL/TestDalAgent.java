@@ -1,13 +1,13 @@
 package TestDAL;
 
-import BO.BoUser;
-import DAL.DalUser;
+import BO.BoAgent;
+import DAL.DalAgent;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-public class TestDalUser {
+public class TestDalAgent {
 
     public static void main(String[] args) {
 
@@ -23,13 +23,13 @@ public class TestDalUser {
             test2_MultipleSelection();
             System.out.println("Test2 done : Multiple selections\n");
 
-            test3_insertUser();
+            test3_insertAgent();
             System.out.println("Test3 done : Updating data");
 
-            test4_UpdateUser(100);
+            test4_UpdateAgent(100);
             System.out.println("Test4 done : Inserting data");
 
-            test5_DeleteUser(100);
+            test5_DeleteAgent(100);
             System.out.println("Test5 done : Deleting data");
 
 //        } catch (ClassNotFoundException e) {
@@ -60,13 +60,13 @@ public class TestDalUser {
 //    }
 
     /**
-     * @param idUser
+     * @param idAgent
      * Display an user by his ID
      * @throws SQLException
      */
-    public static void test1_UniqueSelection(int idUser) throws SQLException {
-        BoUser objUser = DalUser.getOneById(idUser);
-        System.out.println("User identified by : "+idUser+" : "+objUser.toString());
+    public static void test1_UniqueSelection(int idAgent) throws SQLException {
+        BoAgent objUser = DalAgent.getOneById(idAgent);
+        System.out.println("User identified by : "+idAgent+" : "+objUser.toString());
     }
 
     /**
@@ -74,7 +74,7 @@ public class TestDalUser {
      * @throws SQLException
      */
     public static void test2_MultipleSelection() throws SQLException {
-        List<BoUser> arrObjUsers = DalUser.getAll();
+        List<BoAgent> arrObjUsers = DalAgent.getAll();
         System.out.println("List of all available Users : "+arrObjUsers.toString());
     }
 
@@ -83,34 +83,34 @@ public class TestDalUser {
      * Insert a new user
      * @throws SQLException
      */
-    public static void test3_insertUser() throws SQLException {
-        BoUser objUser = new BoUser(100, "Serge", "Blanco", "serge.blanco@email.com", "06 15 28 54 91");
-        DalUser.insertUser(objUser);
+    public static void test3_insertAgent() throws SQLException {
+        BoAgent objUser = new BoAgent(100, "Serge", "Blanco", "serge.blanco@email.com", "06 15 28 54 91");
+        DalAgent.insertAgent(objUser);
         System.out.println("User inserted");
     }
 
     /**
      *
-     * @param idUser
+     * @param idAgent
      * Update a selected user
      * @throws SQLException
      */
-    public static void test4_UpdateUser(int idUser) throws SQLException {
-        BoUser objUser = DalUser.getOneById(idUser);
-        objUser.setS_PhoneNumberUser("0123456789");
-        objUser.setS_EmailUser("newemail@testemail.com");
-        DalUser.updateUser(idUser);
+    public static void test4_UpdateAgent(int idAgent) throws SQLException {
+        BoAgent objUser = DalAgent.getOneById(idAgent);
+        objUser.setS_PhoneNumberAgent("0123456789");
+        objUser.setS_EmailAgent("newemail@testemail.com");
+        DalAgent.updateAgent(idAgent);
         System.out.println("User updated");
     }
 
     /**
      *
-     * @param idUser
+     * @param idAgent
      * Deleting the new user
      * @throws SQLException
      */
-    public static void test5_DeleteUser(int idUser) throws SQLException {
-        DalUser.deleteUser(idUser);
+    public static void test5_DeleteAgent(int idAgent) throws SQLException {
+        DalAgent.deleteAgent(idAgent);
         System.out.println("User deleted");
     }
 }
