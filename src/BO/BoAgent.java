@@ -18,10 +18,6 @@ public class BoAgent {
     //private String s_PhotoAgent;
     //private img img_PersonnalPicture;
 
-    //Default constructor
-    public BoAgent(int i, Object o, Object o1) {
-    }
-
     public BoAgent(int intIdAgent, String strNameAgent, String strFirstNameAgent, String strEmailAgent, String strPhoneNumberAgent/*, String strPhotoUser*/) {
         this.i_IdAgent = intIdAgent;
         this.s_NameAgent = strNameAgent;

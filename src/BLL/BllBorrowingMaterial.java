@@ -12,7 +12,8 @@ import java.sql.SQLException;
  * The same agent has to get them back
  *
  * Methods list :
- * 1. [public void] borrowing material
+ * 1. [public int] borrowing material
+ * 2. [public boolean] isAvailable
  *
  * @version 0.1
  * @author ydurand
@@ -31,8 +32,18 @@ public class BllBorrowingMaterial extends BllGenericController{
         return(IhmListMaterial) view;
     }
 
-    public void borrowingMaterial(int idMaterial) throws SQLException {
+    public int borrowingMaterial(int idMaterial) throws SQLException {
         BoMaterial objMaterial = DalMaterial.getOneById(idMaterial);
         int actualAmount = objMaterial.getI_MaxAmount() - 1;
+        return actualAmount;
+    }
+
+    public boolean isAvailable(int idMaterial) throws SQLException {
+        BoMaterial objMaterial = DalMaterial.getOneById(idMaterial);
+        Boolean response = false;
+        if (objMaterial.getI_MaxAmount() - borrowingMaterial(idMaterial) > 0) {
+            response = true;
+        }
+        return response;
     }
 }

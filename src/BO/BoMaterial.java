@@ -15,21 +15,10 @@ public class BoMaterial {
     private String s_LabelMaterial;
     private int i_MaxAmount;
 
-    public BoMaterial(int intIdMaterial, String strLabelMaterial, String o) {
-    }
-
     public BoMaterial(int intIdMaterial, String strLabelMaterial, int intMaxAmount) {
         this.i_IdMaterial = intIdMaterial;
         this.s_LabelMaterial = strLabelMaterial;
         this.i_MaxAmount = intMaxAmount;
-    }
-
-    public boolean isAvailable() {
-        Boolean response = false;
-        if (i_MaxAmount > 0) {
-            response = true;
-        }
-        return response;
     }
 
     public int getI_IdMaterial() {
