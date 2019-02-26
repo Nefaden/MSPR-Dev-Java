@@ -1,7 +1,9 @@
 package BLL;
 
+import DAL.Jdbc;
 import com.github.sarxos.webcam.Webcam;
 
+import javax.swing.*;
 import java.sql.SQLException;
 
 /**
@@ -75,13 +77,14 @@ public class BllMainController {
     }
 
     private void disconnect() throws SQLException {
-        /*try {
+        try {
             Jdbc.getInstance().disconnected();
         } catch (Exception ex) {
-            JOptionPane.showMessageDialog(null, ex.getMessage(), "CtrlPrincipal - fermeture connexion BD", JOptionPane.ERROR_MESSAGE);
-        } finally {*/
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "Closing connection", JOptionPane.ERROR_MESSAGE);
+        } finally {
             System.exit(0);
         }
     }
+}
 
 

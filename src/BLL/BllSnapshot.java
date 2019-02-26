@@ -59,7 +59,8 @@ public class BllSnapshot extends BllGenericController implements ActionListener,
 
     private static final String uriBase = "https://westus.api.cognitive.microsoft.com/face/v1.0/detect";
 
-    private static final String imageWithFaces = "{\"url\":\"https://upload.wikimedia.org/wikipedia/commons/c/c3/RH_Louise_Lillian_Gish.jpg\"}";
+    //private static final String imageWithFaces = "{\"url\":\"https://upload.wikimedia.org/wikipedia/commons/c/c3/RH_Louise_Lillian_Gish.jpg\"}";
+    private static final String imageWithFaces = "{\"url\":\"file:///C:/Users/Ydurand/IdeaProjects/MSPR-Dev-Java/hello-world.png\"}";
 
     private static final String faceAttributes = "age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise";
 
@@ -141,6 +142,7 @@ public class BllSnapshot extends BllGenericController implements ActionListener,
         if (e.getSource().equals(getView().getjButtonAuth())) {
             try {
                 takePicture();
+                checkPicture();
                 this.getMainController().action(EnumAction.DISPLAY_LIST_MATERIAL);
             } catch (IOException e1) {
                 e1.printStackTrace();

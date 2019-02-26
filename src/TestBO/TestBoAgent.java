@@ -15,7 +15,7 @@ public class TestBoAgent {
         System.out.println(objUser.getS_PhoneNumberAgent());
 
         System.out.println("\nTest n°2 : setter");
-        objUser.setI_IdAgent(69);
+        objUser.setI_IdAgent(100);
         objUser.setS_NameAgent("Marie");
         objUser.setS_FirstNameAgent("Jean");
         objUser.setS_EmailAgent("jmarie@testemail.fr");
